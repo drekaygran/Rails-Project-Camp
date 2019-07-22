@@ -1,4 +1,4 @@
-<% project_name = 'rails-api-project' %>
+<% project_name = 'camp-roster-project' %>
 
 default: &default
   adapter: postgresql
