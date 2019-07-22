@@ -53,7 +53,6 @@ class CampersController < ProtectedController
                                    :last_name,
                                    :allergies,
                                    :dob,
-                                   :camp_session,
                                    :parent_name,
                                    :parent_email,
                                    :parent_phone)
