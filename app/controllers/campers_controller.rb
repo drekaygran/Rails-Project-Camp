@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class CampersController < ApplicationController
+class CampersController < ProtectedController
   before_action :set_camper, only: %i[show update destroy]
 
   # GET /campers
@@ -17,7 +17,7 @@ class CampersController < ApplicationController
 
   # POST /campers
   def create
-    @camper = Camper.new(camper_params)
+    @camper = current_user.campers.build(camper_params)
 
     if @camper.save
       render json: @camper, status: :created, location: @camper
@@ -44,7 +44,7 @@ class CampersController < ApplicationController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_camper
-    @camper = Camper.find(params[:id])
+    @camper = current_user.campers.find(params[:id])
   end
 
   # Only allow a trusted parameter "white list" through.

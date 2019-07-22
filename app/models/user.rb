@@ -2,5 +2,6 @@
 
 class User < ApplicationRecord
   include Authentication
-  has_many :examples, :campers
+  has_many :examples
+  has_many :campers
 end
