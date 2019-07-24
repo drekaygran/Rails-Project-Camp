@@ -11,7 +11,6 @@ curl "http://localhost:4741/campers" \
       "last_name": "'"${LAST}"'",
       "allergies": "'"${ALLERGIES}"'",
       "dob": "'"${DOB}"'",
-      "camp_session": "'"${SESSION}"'",
       "parent_name": "'"${PARENT}"'",
       "parent_email": "'"${EMAIL}"'",
       "parent_phone": "'"${PHONE}"'"

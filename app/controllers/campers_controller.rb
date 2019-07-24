@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-class CampersController < ProtectedController
-  before_action :set_camper, only: %i[show update destroy]
+class CampersController < OpenReadController
+  before_action :set_camper, only: %i[update destroy]
 
   # GET /campers
   def index
@@ -12,7 +12,7 @@ class CampersController < ProtectedController
 
   # GET /campers/1
   def show
-    render json: @camper
+    render json: Camper.find(params[:id])
   end
 
   # POST /campers
