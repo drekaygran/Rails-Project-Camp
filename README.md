@@ -2,7 +2,7 @@
 
 #### Description of app ####
 
-Welcome! Thanks for checking out my camp roster app.  This is meant to serve camp directors and counselors looking to store all camper data in a centralized location.  Users can input camper information like name, allergies, and parent contact info.  If a user has created a particular camper profile.  They have permission to update or delete it as well.
+Welcome! Thanks for checking out my camp roster app.  This is meant to serve camp directors and counselors looking to store all camper data in a centralized location.  Users can input camper information like name, allergies, and parent contact info.  If a user has created a particular camper profile, they have permission to update or delete it.
 
 #### Links ####
 
@@ -27,7 +27,10 @@ Welcome! Thanks for checking out my camp roster app.  This is meant to serve cam
 
 #### Development Process and Problem Solving ####
 
-When I first started, my plan was to have each user in charge of a given camp session.  Then I would establish a one-to-many relationship between the session and the camper.  However, it made more sense to start by just having the relationship be between a user and camper.  A camp session is something I would add in later as a many-to-many relationship.  When faced with bugs or errors, I read errors carefully and inspected to the code that was referenced.  Sometimes I'd find the issue right away other times, I'd find it after deeper searching, googling, or asking for help.
+When I first started, my plan was to have each user in charge of a given camp session.  Then I would establish a one-to-many relationship between the session and the camper.  However, it made more sense to start by just having the relationship be between a user and camper.  A camp session is something I would add in later as a many-to-many relationship.  When faced with bugs or errors, I read errors carefully and inspected to the code that was referenced.  Sometimes I'd find the issue right away, other times, I'd find it after deeper searching, fiddling, googling, or asking for help.
 
 #### Entity Relationship Diagram ####
+
+This was my original ERD.  As stated in my Development Process, I did make some adaptations after getting started.
+
 ![Imgur](https://i.imgur.com/ZHNffJY.jpg)
