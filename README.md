@@ -17,25 +17,6 @@ Welcome! Thanks for checking out my camp roster app.  This is meant to serve cam
 - Handlebars
 - Atom
 
-#### Wireframes ####
-Mobile
-![Wireframes](https://i.imgur.com/GUzXcX3.jpg)
-
-![Wireframes](https://i.imgur.com/BTmsHKt.jpg)
-Desktop
-![Wireframes](https://i.imgur.com/szwLZJ7.jpg)
-
-![Wireframes](https://i.imgur.com/tYbIqFZ.jpg)
-
-![Imgur](https://i.imgur.com/FExF4IM.jpg)
-
-#### User Stories ####
-
-- As a user, I want to be able to login and view all campers' profiles.
-- As a user, I want to be able to know which campers are in my session of camp.
-- As a user, I want to be able to modify camper information if they are a part of my session.
-- As a user, I want to be able to view just one specific camper in any of the camp sessions.
-
 #### Unsolved Problems ####
 
 - Connect campers to sessions as a many-to-many relationship
